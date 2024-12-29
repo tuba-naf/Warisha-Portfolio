@@ -31,7 +31,7 @@ const About1: React.FC = () => {
         </div>
 
         {/* Content on Right */}
-        <div className="flex flex-col justify-center lg:justify-start gap-4 w-full sm:w-[50%] lg:w-[55%] text-center lg:text-left">
+        <div className="flex flex-col justify-center lg:justify-start gap-4 w-full sm:w-[50%] lg:w-[55%] text-center lg:text-left mt-8">
           <p className="text-gray-700 text-justify text-sm sm:text-base md:text-lg leading-relaxed">
             Warisha is a dynamic SEO Executive with a rich blend of experience
             in digital marketing and a solid foundation in quality control
