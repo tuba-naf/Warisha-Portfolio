@@ -21,8 +21,8 @@ const About1: React.FC = () => {
             <Image
               src="/Image/Warisha.jpg"
               alt="Description of Image"
-              width={500}
-              height={500}
+              width={450}
+              height={450}
               quality={90}
               priority
               className="rounded-full object-cover"
