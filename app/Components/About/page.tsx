@@ -14,15 +14,15 @@ const About1: React.FC = () => {
         <button className="bg-blue-500 text-white py-2 px-4 rounded">About</button>
       </div>
       {/* Content Div */}
-      <div className="flex flex-col lg:flex-row items-center lg:items-start px-4 sm:px-6 md:px-8 mt-12 gap-8 w-full max-w-[1280px] mx-auto">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start px-4 sm:px-6 md:px-8 mt-12 gap-12 w-full max-w-[1280px] mx-auto">
         {/* Picture on Left */}
-        <div className="flex flex-col items-center lg:items-start gap-4 w-full sm:w-[50%] lg:w-[45%]">
+        <div className="flex justify-center items-center w-full sm:w-[50%] lg:w-[45%]">
           <div className="w-[200px] sm:w-[250px] md:w-[300px] lg:w-[400px] xl:w-[500px] h-auto bg-gray-200 rounded-full shadow-lg transform hover:scale-110 hover:shadow-2xl transition-transform duration-500 ease-in-out">
             <Image
               src="/Image/Warisha.jpg"
               alt="Description of Image"
-              width={450}
-              height={450}
+              width={500}
+              height={500}
               quality={90}
               priority
               className="rounded-full object-cover"
@@ -31,8 +31,8 @@ const About1: React.FC = () => {
         </div>
 
         {/* Content on Right */}
-        <div className="flex flex-col items-center lg:items-start gap-4 w-full sm:w-[50%] lg:w-[55%] text-center lg:text-left">
-          <p className="text-gray-700 text-justify text-sm sm:text-base md:text-lg">
+        <div className="flex flex-col justify-center lg:justify-start gap-4 w-full sm:w-[50%] lg:w-[55%] text-center lg:text-left">
+          <p className="text-gray-700 text-justify text-sm sm:text-base md:text-lg leading-relaxed">
             Warisha is a dynamic SEO Executive with a rich blend of experience
             in digital marketing and a solid foundation in quality control
             within the pharmaceutical sector. Her journey has seamlessly
