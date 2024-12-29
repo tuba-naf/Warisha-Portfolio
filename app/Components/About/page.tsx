@@ -14,7 +14,7 @@ const About1: React.FC = () => {
         <button className="bg-blue-500 text-white py-2 px-4 rounded">About</button>
       </div>
       {/* Content Div */}
-      <div className="flex flex-col lg:flex-row items-center lg:items-start px-4 sm:px-6 md:px-8 mt-12 gap-8 w-full max-w-[1280px] mx-auto">
+      <div className="flex flex-col lg:flex-row items-start lg:items-start px-4 sm:px-6 md:px-8 gap-8 w-full max-w-[1280px] mx-auto mt-12">
         {/* Picture on Left */}
         <div className="flex flex-col items-center lg:items-start gap-4 w-full sm:w-[50%] lg:w-[45%]">
           <div className="w-[200px] sm:w-[250px] md:w-[300px] lg:w-[400px] xl:w-[500px] h-auto bg-gray-200 rounded-full shadow-lg transform hover:scale-110 hover:shadow-2xl transition-transform duration-500 ease-in-out">
@@ -29,7 +29,6 @@ const About1: React.FC = () => {
             />
           </div>
         </div>
-
         {/* Content on Right */}
         <div className="flex flex-col items-center lg:items-start gap-4 w-full sm:w-[50%] lg:w-[55%] text-center lg:text-left">
           <p className="text-gray-700 text-justify text-sm sm:text-base md:text-lg">

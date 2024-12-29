@@ -19,7 +19,7 @@ const Footer = () => {
         {/* "What’s next?" text */}
         <div className="flex flex-col justify-center items-center text-center">
           <div className="text-lg text-gray-800">
-            What is next? Feel free to reach out to me if you are looking for a developer, have a query, or simply want to connect.
+            What is next? Feel free to reach out to me if you are looking for an SEO expert, have a query or need a success roadmap to elevate your brand.
           </div>
         </div>
 
